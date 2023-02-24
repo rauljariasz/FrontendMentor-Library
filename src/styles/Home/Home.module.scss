@@ -1,0 +1,68 @@
+.main {
+  height: 100vh;
+  position: relative;
+}
+.cTop {
+  color: white;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+.conTyped {
+  color: white;
+  z-index: 2;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  &__bg {
+    position: relative;
+    background-color: #0000007a;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+}
+.next{
+  position: absolute;
+  bottom: -55px;
+  right: 10px;
+  transition: all .6s;
+	-webkit-animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
