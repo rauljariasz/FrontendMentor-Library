@@ -13,10 +13,10 @@ const TypedReactHook = () => {
         "Hola 👋",
         `Bienvenid@ a mi libreria 
 de retos de FM🎨`,
-        "Espero sea de tu agrado 👨‍🚀",
+        "tómate un té ☕ y disfrútalos 👨‍🚀",
       ],
-      typeSpeed: 70,
-      backSpeed: 60,
+      typeSpeed: 55,
+      backSpeed: 55,
     };
 
     // elRef refers to the <span> rendered below

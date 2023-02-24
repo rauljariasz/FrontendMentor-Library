@@ -17,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setNextPage(true);
-    }, 12000);
+    }, 13000);
   }, []);
 
   return (
