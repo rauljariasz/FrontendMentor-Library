@@ -53,7 +53,7 @@ export default function Index () {
         </div>
       </main>
       {botones ? <div className={`${styles.buttons}`}>
-          <div>
+          <div>{/* Previous */}
             <Link href="/">
               <LeftArrowButton />
             </Link>
@@ -68,8 +68,8 @@ export default function Index () {
               <LiveButton />
             </Link>
           </div>
-          <div>
-            <Link href="/">
+          <div>{/* Next */}
+            <Link href="/faq-accordion-card">
               <ArrowButton />
             </Link>
           </div>
