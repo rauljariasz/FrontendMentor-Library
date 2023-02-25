@@ -1,13 +1,17 @@
 import Head from "next/head";
-import ParticlesBackground from "@components/particlesBackground";
-import TypedReactHook from "@hooks/useTyped";
 import Image from "next/image";
-import RJ from "@images/20.png";
-import { Ubuntu } from "next/font/google";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import styles from "@styles/Home/Home.module.scss";
+
+/* Components & Hooks */
+import ParticlesBackground from "@components/particlesBackground";
 import ArrowButton from "@components/arrowButton";
+import TypedReactHook from "@hooks/useTyped";
+
+/* Assets */
+import RJ from "@images/20.png";
+import { Ubuntu } from "next/font/google";
+import styles from "@styles/Home/Home.module.scss";
 
 const ubuntu = Ubuntu({ subsets: ["latin"], weight: ["400"] });
 
@@ -39,7 +43,7 @@ export default function Home() {
         <div className={`${styles.conTyped}`}>
           <div className={`${styles.conTyped__bg}`}>
             <TypedReactHook />
-            <Link href="/Qrcodecomponent">
+            <Link href="/qr-code-component">
               {nextPage ? (
                 <div className={`${styles.next}`}>
                   <ArrowButton />
