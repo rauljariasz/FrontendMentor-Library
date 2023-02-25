@@ -15,8 +15,8 @@ const TypedReactHook = () => {
 de retos de FM🎨`,
         "tómate un té ☕ y disfrútalos 👨‍🚀",
       ],
-      typeSpeed: 55,
-      backSpeed: 55,
+      typeSpeed: 50,
+      backSpeed: 30,
     };
 
     // elRef refers to the <span> rendered below
