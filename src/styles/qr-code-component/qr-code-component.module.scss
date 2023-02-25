@@ -43,7 +43,7 @@
 .buttons {
   display: flex;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   justify-content: space-around;
   -webkit-animation: fade-in-top 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
