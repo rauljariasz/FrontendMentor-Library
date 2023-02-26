@@ -441,7 +441,7 @@ const Index = () => {
             </Link>
           </div>
           <div>{/* Next */}
-            <Link href="/">
+            <Link href="/interactive-rating-component">
               <ArrowButton />
             </Link>
           </div>
