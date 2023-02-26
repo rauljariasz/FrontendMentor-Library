@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 
 /* Assets */
-import thanYou from "@images/interactive-rating-component/illustration-thank-you.svg";
-import styles from "@styles/interactive-rating-component/TyCard.module.scss";
+import thanYou from "@images/3-interactive-rating-component/illustration-thank-you.svg";
+import styles from "@styles/3-interactive-rating-component/TyCard.module.scss";
 
 const TyCard = ({calificacion}) => {
     if (calificacion > 0) {

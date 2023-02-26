@@ -2,8 +2,8 @@ import React, {useState, useRef} from 'react';
 import Image from 'next/image';
 
 /* Assets */
-import Star from "@images/interactive-rating-component/icon-star.svg";
-import styles from "@styles/interactive-rating-component/HowCard.module.scss";
+import Star from "@images/3-interactive-rating-component/icon-star.svg";
+import styles from "@styles/3-interactive-rating-component/HowCard.module.scss";
 
 const HowCard = ({setCalificacion}) => {
     let [rate, setRate] = useState(0);

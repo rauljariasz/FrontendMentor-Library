@@ -10,14 +10,14 @@ import GhButton from "@components/ghButton";
 import LiveButton from "@components/liveButton";
 
 /* Assets */
-import illusMobile from "@images/faq-accordion-card/illustration-woman-online-mobile.svg";
-import patternMobile from "@images/faq-accordion-card/bg-pattern-mobile.svg";
-import arrow from "@images/faq-accordion-card/icon-arrow-down.svg";
-import illusDesktop from "@images/faq-accordion-card/illustration-woman-online-desktop.svg";
-import patternDesktop from "@images/faq-accordion-card/bg-pattern-desktop.svg";
-import boxDesktop from "@images/faq-accordion-card/illustration-box-desktop.svg";
+import illusMobile from "@images/2-faq-accordion-card/illustration-woman-online-mobile.svg";
+import patternMobile from "@images/2-faq-accordion-card/bg-pattern-mobile.svg";
+import arrow from "@images/2-faq-accordion-card/icon-arrow-down.svg";
+import illusDesktop from "@images/2-faq-accordion-card/illustration-woman-online-desktop.svg";
+import patternDesktop from "@images/2-faq-accordion-card/bg-pattern-desktop.svg";
+import boxDesktop from "@images/2-faq-accordion-card/illustration-box-desktop.svg";
 import { Kumbh_Sans } from "next/font/google";
-import styles from "@styles/faq-accordion-card/index.module.scss";
+import styles from "@styles/2-faq-accordion-card/index.module.scss";
 
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -426,7 +426,7 @@ const Index = () => {
       </main>
       {botones ? <div className={`${styles.buttons}`}>
           <div>{/* Previous */}
-            <Link href="/qr-code-component">
+            <Link href="/1-qr-code-component">
               <LeftArrowButton />
             </Link>
           </div>
@@ -441,7 +441,7 @@ const Index = () => {
             </Link>
           </div>
           <div>{/* Next */}
-            <Link href="/interactive-rating-component">
+            <Link href="/3-interactive-rating-component">
               <ArrowButton />
             </Link>
           </div>

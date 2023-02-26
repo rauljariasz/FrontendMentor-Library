@@ -4,16 +4,16 @@ import Link from "next/link";
 
 
 /* Components & Hooks */
-import HowCard from "@components/interactive-rating-component/HowCard";
-import TyCard from "@components/interactive-rating-component/TyCard";
+import HowCard from "@components/3-interactive-rating-component/HowCard";
+import TyCard from "@components/3-interactive-rating-component/TyCard";
 import LeftArrowButton from "@components/leftArrowButton";
-/* import ArrowButton from "@components/arrowButton"; */
+import ArrowButton from "@components/arrowButton";
 import GhButton from "@components/ghButton";
 import LiveButton from "@components/liveButton";
 
 /* Assets */
 import { Overpass } from "next/font/google";
-import styles from "@styles/interactive-rating-component/index.module.scss";
+import styles from "@styles/3-interactive-rating-component/index.module.scss";
 
 const overpass = Overpass({subsets:['latin'], weight:['400', '700']});
 
@@ -47,7 +47,7 @@ const App = () => {
       </main>
       {botones ? <div className={`${styles.buttons}`}>
           <div>{/* Previous */}
-            <Link href="/faq-accordion-card">
+            <Link href="/2-faq-accordion-card">
               <LeftArrowButton />
             </Link>
           </div>
@@ -61,11 +61,11 @@ const App = () => {
               <LiveButton />
             </Link>
           </div>
-          {/*<div> Next 
-            <Link href="/">
+          <div> {/* Next  */}
+            <Link href="/4-product-preview-card">
               <ArrowButton />
             </Link>
-          </div>*/}
+          </div>
       </div> : null}
     </>
   );

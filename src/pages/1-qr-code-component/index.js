@@ -10,9 +10,9 @@ import GhButton from "@components/ghButton";
 import LiveButton from "@components/liveButton";
 
 /* Assets */
-import QR from "@images/qr-code-component/image-qr-code.png";
+import QR from "@images/1-qr-code-component/image-qr-code.png";
 import { Outfit } from "next/font/google";
-import styles from "@styles/qr-code-component/qr-code-component.module.scss";
+import styles from "@styles/1-qr-code-component/qr-code-component.module.scss";
 
 const outfit = Outfit({ subsets:['latin'], weight: ['400', '700']});
 
@@ -69,7 +69,7 @@ export default function Index () {
             </Link>
           </div>
           <div>{/* Next */}
-            <Link href="/faq-accordion-card">
+            <Link href="/2-faq-accordion-card">
               <ArrowButton />
             </Link>
           </div>

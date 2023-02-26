@@ -43,7 +43,7 @@ export default function Home() {
         <div className={`${styles.conTyped}`}>
           <div className={`${styles.conTyped__bg}`}>
             <TypedReactHook />
-            <Link href="/qr-code-component">
+            <Link href="/1-qr-code-component">
               {nextPage ? (
                 <div className={`${styles.next}`}>
                   <ArrowButton />
